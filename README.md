@@ -1,4 +1,4 @@
-# Bugsfree Studio IPTV Player
+# Web IPTV Player
 
 A modern, animated IPTV player for the web, featuring the Bugsfree Studio animated logo, playlist management, channel analysis, viewer stats, dark/light themes, and a retro TV scanlines effect.  
 **No backend required – fully client-side, works with `.m3u`, `.m3u8`, `.json`, `.txt` playlists (local or via URL).**
