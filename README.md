@@ -156,7 +156,7 @@ MIT License
 
 ## Issues & Contributions
 
-- Found a bug? [Open an issue](https://github.com/bugsfreeweb/jhand.tv/issues)
+- Found a bug? [Open an issue](https://github.com/bugsfreeweb/webtv/issues)
 - Want to contribute? Submit a pull request!
 
 ---
