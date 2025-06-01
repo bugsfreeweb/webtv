@@ -161,12 +161,6 @@ MIT License
 
 ---
 
-## Screenshots
-
-*(Add screenshots here as needed)*
-
----
-
 ## Disclaimer
 
 IPTV streams must be used in accordance with their terms and local laws. This project is for educational purposes.
