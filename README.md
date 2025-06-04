@@ -138,6 +138,6 @@ MIT License
 IPTV streams must be used in accordance with their terms and local laws. This project is for educational purposes.
 ---
 ## Donate the project
-DOGE: <b>DEtH2yFUjjUEBUyd3scjs38X7S1Z7ee7zD</b>
-BTC Lightening: <b>bugsfree@speed.app</b>
-SOL: <b>bugsfree.sol</b>
+- DOGE: <b>DEtH2yFUjjUEBUyd3scjs38X7S1Z7ee7zD</b>
+- BTC Lightening: <b>bugsfree@speed.app</b>
+- SOL: <b>bugsfree.sol</b>
