@@ -4,9 +4,7 @@ A modern, animated IPTV player for the web, featuring the Bugsfree Studio animat
 **No backend required – fully client-side, works with `.m3u`, `.m3u8`, `.json`, `.txt` playlists (local or via URL).**
 
 ---
-
 ## Features
-
 - **Animated Bugsfree Studio Logo**: Dynamic effects with intro and cycling animations.
 - **Playlist Management**:
   - Load playlists from file or URL (`.m3u`, `.json`, `.txt`).
@@ -31,9 +29,7 @@ A modern, animated IPTV player for the web, featuring the Bugsfree Studio animat
 - **Other**:
   - "Report Issue" button linked to GitHub issues.
   - No server required: everything runs in the browser.
-
 ---
-
 ## Getting Started
 
 ### 1. Download or Clone
@@ -41,7 +37,6 @@ A modern, animated IPTV player for the web, featuring the Bugsfree Studio animat
 ```sh
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 ```
-
 Or download the HTML/JS/CSS files and open in your browser.
 
 ### 2. Playlist Formats Supported
@@ -53,7 +48,6 @@ Or download the HTML/JS/CSS files and open in your browser.
 | `.json` | Array or object with `channels` array/object | `{ "channels": [{ "src": "...", "name": "...", ... }]}`  |
 
 ### 3. Usage
-
 - **Open in browser**  
   Just open `index.html` (or the page where this script is included).
 - **Add Playlist**  
@@ -65,9 +59,7 @@ Or download the HTML/JS/CSS files and open in your browser.
 - **Favorites & History**
   - Star a channel to add to favorites.
   - Uploaded/loaded playlists are remembered in history.
-
 ---
-
 ## UI Controls
 
 | Action                  | How to Use               |
@@ -82,11 +74,8 @@ Or download the HTML/JS/CSS files and open in your browser.
 | Check Channel Status    | "Sync" or enable auto   |
 
 ---
-
 ## Code Structure
-
 ### Core Files
-
 - **UI & Logic**:  
   - Uses native DOM APIs (`$`, `$all` helpers).
   - All state and playlists are managed in-memory and localStorage.
@@ -105,62 +94,50 @@ Or download the HTML/JS/CSS files and open in your browser.
   - All major UI elements are accessible via keyboard and mouse/touch.
 
 ### Main Objects/Variables
-
 - `channels`, `favorites`, `history`, `filteredChannels`: Channel lists.
 - `playlistLoaded`, `playlistKey`: Playlist state.
 - `currentChannelIndex`, `isMuted`, `scanlinesEnabled`, `theme`: UI/player state.
 - `backgroundSyncEnabled`, `backgroundSyncInterval`: Sync status.
 
 ### Main Functions
-
 - **Playlist**: `parseM3u`, `parseJson`, `parseTxt`, `parseCustom`
 - **Playback**: `playChannel`, `playByChannel`, `nextChannel`, `prevChannel`, `toggleMute`
 - **UI**: `renderChannelList`, `updateFavoritesListUI`, `updateHistoryListUI`, `updateMuteIcons`
 - **Analysis**: `updateAnalysis`, `createChart`, `syncAndShowOnlineChannels`
 - **Animation**: `addBugsfreeStudioLogoAnimation`, `bfsLogoAnimCycle`
-
 ---
-
 ## Customization
 
 - **Default Logo/Poster**: Change `DEFAULT_LOGO` and `PLAYER_POSTER` constants.
 - **Demo Playlist**: Customize the `demoPlaylist` array.
 - **Logo Animation**: Modify or add CSS animation classes for `.special-animated`.
-
 ---
-
 ## Dependencies
-
 - [Hls.js](https://github.com/video-dev/hls.js) (for HLS playback in browsers that don't support it natively)
 - [feather-icons](https://feathericons.com/) (SVG icon replacement)
 - [Chart.js](https://www.chartjs.org/) (for analysis chart)
-
 All dependencies can be loaded via CDN.
-
 ---
-
 ## License
 
 MIT License
-
 ---
-
 ## Credits
-
 - **Bugsfree Studio**  
   Animated branding and overall design  
 - **Contributors**  
   See [GitHub Contributors](./contributors)
-
 ---
-
 ## Issues & Contributions
-
 - Found a bug? [Open an issue](https://github.com/bugsfreeweb/webtv/issues)
 - Want to contribute? Submit a pull request!
 
 ---
-
 ## Disclaimer
 
 IPTV streams must be used in accordance with their terms and local laws. This project is for educational purposes.
+---
+## Donate the project
+DOGE: <b>DEtH2yFUjjUEBUyd3scjs38X7S1Z7ee7zD</b>
+BTC Lightening: <b>bugsfree@speed.app</b>
+SOL: <b>bugsfree.sol</b>
